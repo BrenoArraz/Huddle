@@ -51,6 +51,7 @@ main{
   border-radius: 50px;
   font-size: 18px;
   transition: 0.3s ease-in-out;
+  color: hsl(257, 40%, 49%);
 }
 
 .container .direita .btn:hover{
