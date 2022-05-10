@@ -1,0 +1,90 @@
+main{
+  background: url(../images/bg-desktop.svg) no-repeat hsl(257, 40%, 49%);
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+  padding: 69px;
+  max-width: 350px;
+  padding-top: 57px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 69px;
+  padding-top: 8px;
+}
+
+.container .esquerda img{
+  width: 95%;
+}
+
+.container .direita {
+  margin-left: 17px;
+}
+
+.container .direita h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  margin-top: 42px;
+  color: #ffff;
+}
+
+.container .direita p{
+  margin-top: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffff;
+  max-width: 520px;
+}
+
+.container .direita .btn{
+  margin-top: 30px;
+  border-radius: 50px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  border: #ffff;
+  transition: 0.3s ease-in-out;
+}
+
+.container .direita .btn:hover{
+  color: #ffff;
+  background-color: hsl(300, 69%, 71%);
+}
+
+.container .direita .footer{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 180px;
+}
+
+
+
+.container .direita i{
+  display: flex;
+  font-size: 20px;
+  margin: 7px;
+  border: 1px solid #ffff;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  transition: 0.3s ease-in-out;
+}
+
+.container .direita i:hover{
+  color: hsl(300, 69%, 71%);
+  border: hsl(300, 69%, 71%) solid 1px;
+}
+
